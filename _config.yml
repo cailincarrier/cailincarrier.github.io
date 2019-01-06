@@ -34,8 +34,6 @@ collections:
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
   - title: facebook
     url:
   - title: twitter
@@ -48,11 +46,8 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - BC, Canada
+email: cailinsdrawings@gmail.com
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -62,12 +57,6 @@ members:
   - name: Cailin Carrier
     position: Artist
     text: Best in the world.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
 
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
