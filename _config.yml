@@ -101,8 +101,8 @@ prose:
         field:
           element: "text"
           label: "Image"
-          help: "Add an image."
-          placeholder: "Thumbnail"
+          help: "Upload to assets/img/project"
+          placeholder: "Filename (portfolio_10.jpeg)"
           alterable: true
       - name: "category"
         field:
@@ -127,4 +127,6 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
+          value: true
+          alterable: true
 
