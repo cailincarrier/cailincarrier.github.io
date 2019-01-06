@@ -62,3 +62,69 @@ members:
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "I don't smell too bad."
 
+# prose.io config
+prose:
+  rooturl: '_projects'
+  media: 'assets/img/projects'
+  ignore:
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - Gemfile
+    - Gemfile.lock
+    - /css
+    - /assets
+    - /js
+
+  metadata:
+    _projects:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "project"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "img"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add an image."
+          placeholder: "Thumbnail"
+          alterable: true
+      - name: "category"
+        field:
+          element: "select"
+          label: "Add category"
+          placeholder: "Choose category"
+          options:
+            - name: "Animals"
+              value: "Animals"
+            - name: "Paintings"
+              value: "Paintings"
+            - name: "Paramedic"
+              value: "Paramedic"
+            - name: "Portrait"
+              value: "Portrait"
+            - name: "Scenic"
+              value: "Scenic"
+            - name: "Tattoos"
+              value: "Tattoos"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
